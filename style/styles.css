@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    background-image: url('background.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 100px auto;
+    width: 500px;
+    height: 300px;
+}
+
+
+#title {
+    padding: 20px;
+    color: rgb(59, 59, 59);
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
+}
+
+.input-el {
+    margin: 10px;
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    width: 400px;
+
+    font-size: 18px;
+}
+
+.input-el.submit-btn {
+    cursor: pointer;
+    transition: 0.5s; 
+}
+
+.input-el.submit-btn:hover {
+    background-color: rgb(59, 59, 59);
+    border: none;
+    color: white;
+}
+
+.container-anchors {
+    text-align: center;
+}
+
+a {
+    color: rgb(59, 59, 59);
+    font-weight: bold;
+}
+
+a:hover {
+    font-size: 18px;
+}
+
+#signup {
+    padding: 10px;
+    text-decoration: none;
+}
+
+#user {
+    font-family: 'Lato', sans-serif;
+    color: green;
+}
+
+#errors {
+    color: red;
+}
